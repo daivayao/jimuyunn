@@ -1,0 +1,144 @@
+
+/*banner开始*/
+.banner {
+    height: 592px;
+    width: 100%;
+    /*background: url(../images/images/banner.jpg) no-repeat center center;*/
+    margin-top: 87px;
+    border-bottom: 5px solid #CCCCCC;
+    opacity:0;
+    position: relative;
+}
+.maskOut{
+    height: 100%;
+    width: 20%;
+    /*background: red;*/
+    position: absolute;
+    z-index: -3;
+}
+.maskInner{
+    height: 100%;
+    width: 80%;
+    /*background: blue;*/
+    z-index: -3;
+}
+/*word开始*/
+.banner .word-top {
+    /*display:none;*/
+    padding: 0 0 0 5px;
+    position: absolute;
+    top: 251px;
+    color: #FFF;
+    font: bold 55px "新宋体";
+}
+.banner span {
+    padding: 0 0 0 5px;
+    color: #FEDB93;
+    font-size: 30px;
+    line-height: 68px;
+    font-weight: bold;
+}
+.banner .word_bottom_t{
+    position: absolute;
+    top: 331px;
+    left:-3000px;
+}
+.word_bottom_b{
+     position: absolute;
+     top: 399px;
+     left:3000px;
+}
+    /*word结束*/
+/*jimu开始*/
+.jimu {
+    /*width: 287px;*/
+    /*height: 370px;*/
+    position: absolute;
+    top: 186px;
+    right: 190px;
+    background: url(../images/images/jmy-logo.png) center 0 no-repeat;
+}
+/*jimu结束*/
+/*banner结束*/
+
+
+/*service开始*/
+.service {
+    height: 570px;
+}
+
+.icons {
+    width: 263px;
+    height: 228px;
+    position: relative;
+    margin-top: 18px;
+    float: left;
+    margin-right: 28px;
+    opacity:0;
+}
+.circle{
+    position: absolute;
+    top:-2px;
+    left: 83px;
+    height: 90px;
+    width: 90px;
+    border:2px solid #A1A9B7;
+    border-radius: 50px;
+    opacity: 0;
+    z-index: 11;
+}
+.icon {
+    height: 45px;
+    width: 255px;
+    margin:0 auto;
+    border-bottom: 4px solid #A1A9B7;
+}
+
+.icons-top {
+    height: 90px;
+    width: 90px;
+    background: #A1A9B7;
+    border-radius: 45px;
+    position: absolute;
+    top: 0;
+    left: 85px;
+
+}
+.service .ml{
+    margin-right: 0;
+}
+/*.service .mt{*/
+    /*margin-top: 60px;*/
+/*}*/
+.service em {
+    position: absolute;
+    top: 25px;
+    left: 105px;
+    width: 50px;
+    height: 50px;
+    background: url("../images/sprite.png") 0px 0px no-repeat;
+}
+.icons-bottom {
+    position: absolute;
+    width: 260px;
+    height: 178px;
+    border: 1px solid #CCCCCC;
+    border-top:none;
+    border-radius: 6px;
+}
+.service h3 {
+    margin-top: 65px;
+    font-size: 18px;
+    color:#535D6B;
+    text-align: center;
+}
+.service p{
+    margin-top:15px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color:#777777;
+}
+
+/*service结束*/
+

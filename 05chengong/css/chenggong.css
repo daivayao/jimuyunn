@@ -1,0 +1,122 @@
+.banner{
+    opacity: 1;
+    height: 692px;
+    background: url("../images/banner.png") no-repeat center center;
+    border-bottom: 2px solid #CCCCCC;
+    margin-top: 88px;
+}
+.zhuti{
+    height: 73px;
+    border-bottom: 1px solid #E5E5E5;
+}
+button{
+    width: 53px;
+    height: 50px;
+    background: #3C495A;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    float: left;
+    margin: 12px 10px 0  0;
+}
+.banxin{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.zhuti{
+    text-align: center;
+}
+.zhuti ul{
+    float: left;
+}
+.zhuti li{
+    float: left;
+}
+.zhuti a {
+    line-height: 50px;
+    padding: 0  20px;
+    color: #0088CC;
+    font-size: 16px;
+    display: block;
+    margin-top: 12px;
+}
+
+ .zhuti a:hover{
+
+    font-size: 16px;
+     background-color: #EEEEEE;
+     border-radius: 8px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ .box{
+     margin-top: 20px;
+     /*height: 1200px;*/
+ }
+ .hezi{
+     margin: 20px 0;
+
+
+ }
+.xhzi{
+    width: 549px;
+    height: 544px;
+    /*background-color: red;*/
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid #DDDDDD;
+    position: relative;
+
+}
+.zhezhao{
+    width: 549px;
+    height: 544px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}
+.wz{
+    /*width: 134px;*/
+    height: 60px;
+    background-color: #393939;
+    position: absolute;
+    left: 4px;bottom: 60px;
+    border-radius: 0px 10px 10px 0px;
+
+
+}
+.one{
+    color: white;
+    font-size: 16px;
+    /*padding: 13px 0 0 16px;*/
+    /*margin: 13px 0 0 16px;*/
+
+    margin: 10px 15px 0 15px;
+    font-weight: bold;
+}
+.two{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    line-height:28px ;
+    font-weight: bold;
+}
+.xwz{
+    width: 76px;
+    height: 28px;
+    position: absolute;
+    background-color: #3C495A;
+    bottom: 49px;
+    left: 32px;
+    border-radius: 5px;
+}
+.box img{
+    border-radius: 5px;
+    /*background-color:black;*/
+    /*opacity: 1;*/
+}

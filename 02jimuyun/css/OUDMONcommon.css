@@ -1,0 +1,167 @@
+/*css 初始化 start */
+html, body, ul, li, ol, dl,
+dd, dt, p, h1, h2, h3, h4,
+h5, h6, form, fieldset,
+legend, img{
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉边框
+等默认样式*/
+fieldset, img, input, button
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse:
+    collapse;
+}
+
+body {
+    font-size: 14px;
+    color: #777;
+    font-family: "微软雅黑";
+}
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/*废物利用*/
+s, i, em,b {
+    font-style: normal;
+    text-decoration: none;
+}
+/*公共类*/
+.banxin {
+    /*版心 提取 */
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+/*css 初始化 end */
+/*马戬宇 22:27:21*/
+/*<html lang="en">*/
+/*<head>*/
+ /*<meta charset="UTF-8">*/
+/*<title>Document</title>*/
+                 /*<style>*/
+                 /*.fa{*/
+                     /*height: 100px;*/
+                     /*width: 400px;*/
+                     /*border: 1px solid red;*/
+                     /*position: relative;*/
+                 /*}*/
+/*.son{*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+    /*border-radius: 10px;*/
+    /*background: green;*/
+    /*position: absolute;*/
+/*}*/
+
+/*</style>*/
+
+  /*</head>*/
+    /*<body>*/
+    /*<div class="fa" id="fa">*/
+/*<div class="son" id="son"></div>*/
+                            /*</div>*/
+                              /*<script>*/
+                              /*var fa=document.getElementById("fa");*/
+/*var son=document.getElementById("son");*/
+/*var x=0;//跳动元素此刻的坐标*/
+          /*var y=40;*/
+/*var stepX=5;//初始化水平垂直加速度*/
+              /*var stepY=5;*/
+/*setInterval(function(){*/
+    /*y+=stepY;*/
+    /*x+=stepX;*/
+/*if(x<0||x>(fa.clientWidth-son.offsetWidth)){*/
+    /*stepX*=-1;*/
+/*}*/
+/*if (y<0||y>fa.clientHeight-son.offsetHeight) {*/
+    /*stepY*=-1;*/
+/*}*/
+/*son.style.top=y+"px";*/
+/*son.style.left=x+"px";*/
+/*},25);*/
+/*</script>*/
+  /*</body>*/
+    /*</html>*/
